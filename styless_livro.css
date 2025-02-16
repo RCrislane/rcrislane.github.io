@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Karma Suture';
+    font-size: 50px;
+    src: url('karma/') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Centraliza o título e os botões */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('livro_informacoes.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Karma Suture', sans-serif;
+    margin: 0;
+}

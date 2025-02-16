@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Karma Suture';
+    src: url('karma/Karma\ Suture.otf') format('truetype');
+    
+}
+@font-face {
+    font-family: 'Fields of Mistria';
+    src: url('fields-of-mistria.ttf') format('truetype');
+    
+}
+
+/* Centraliza o título e os botões */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('fundoOK.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Karma Suture', sans-serif;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column; /* Empilha os botões */
+    align-items: center;
+    gap: 15px; /* vai empulhar os btn*/
+    margin-top: 20px;
+
+}
+
+.big-letter {
+    font-size: 80px;
+}
+
+.small-text {
+    font-size: 50px;
+    vertical-align: super;
+    position: relative;
+    top: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.pixel-bt {
+    font-family: 'Fields of Mistria', sans-serif;
+    font-size: 23px;
+    color: black;
+    background: #f9f3ed; 
+    border: 2px solid #5c3a2e;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px #5c3a2e, 0px 6px 0px #2c1c15; /* Sombra dupla pixelada */
+    transition: 0.1s;
+    width: 200px;
+    height: 50px;
+    /* width: 90%; /* Faz os botões ocuparem quase toda a tela no mobile */
+    /* max-width: 300px; /* Limite de tamanho para desktop */
+    /* height: 50px;
+    text-align: center;
+      */
+    
+}
+
+.pixel-bt:active {
+    box-shadow: 0px 2px 0px #5c3a2e, 0px 4px 0px #2c1c15;
+    transform: translateY(7px);
+}
+
